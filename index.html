@@ -1,109 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Pink & Cyan Navbar</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">
-            <h1>Areeba Sadiq</h1>
-        </div>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-        </ul>
-        <button class="menu-toggle" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
-    </nav> 
+  <!-- Header Section -->
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </nav>
+  </header>
 
-
-    <!-- Home section -->
+  <!-- Home Sections -->
+  <main>
     <section id="home">
-        <div class="container">
-            <div class="personal-info">
-                <h1>Hi It's Me</h1>
-                <h2>I'm Areeba Sadiq</h2>
-                <p>Web Developer</p>
-               </div>
-             <div class="profile-picture">
-            <img src="images/profile.jpg" alt="Profile Picture">
-        </div>
-       </div>
-      </section>
-
-        <!-- About section -->
-
-        <section  id="about">
-           <h2>About Me</h2>
-           <p>I am a student of Generative AI and I am interested in course. <br>
-            Generative AI is self-forming by nature and is predicated on ideas<br>
-             of superhuman intelligence, I find it fascinating. I'm putting a lot<br>
-              of effort into learning how to teach machines to be creative on their own.<br>
-               I consider myself lucky to be a part of groups that are pushing the envelope<br>
-                in this quickly developing subject, and I'm committed to making sure we're<br>
-                 ready for generative AI in the future.</p>
-        </section>
-       <!-- skills section -->
-       <section class="skills" id="skills">
-        <h1>Skills</h1>
-        <img src="images/img html.jpeg"alt="">
-        <img src="images/img css.jpeg" alt="">
-        <img src="images/typescript.jpeg"alt ="">
-    </section>
-
-    <section class="experience"id="experience">
-                <h2>Experience</h2>
-        
-        <div class="experience-item">
-            <h3>Matric Science</h3>
-            <p>In 2023, I completed my Matric Science studies, gaining a solid foundation in scientific principles and analytical skills.</p>
-        </div>
-
-        <div class="experience-item">
-            <h3>Generative AI Student</h3>
-            <p>Currently, I am a student of Generative AI, having started my journey in this field recently. This has provided me with valuable insights into modern AI technologies.</p>
-        </div>
-
-        <div class="experience-item">
-            <h3>HTML & CSS Experience</h3>
-            <p>Started learning HTML and CSS in September 2023 through YouTube tutorials and college courses. I have completed one year of hands-on experience in these technologies.</p>
-        </div>
-
-        <div class="experience-item">
-            <h3>TypeScript Journey</h3>
-            <p>Since February 2024, I have been learning TypeScript. Under the guidance of my teacher, Sir Hamzah Syed, I have successfully completed Quarter 1 and am progressing towards Quarter 2.</p>
-        </div>
-    </section>
-    
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-text">
-                <p>&copy; copyright.designed and developed by <a>Areeba</a>.</p>
-            </div>
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                </ul>
-            </nav>
-            <div class="footer-social">
-                <a href="https://www.linkedin.com/in/areeba-sadiq-05a499315" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/AreebaSadiq23" target="_blank" class="social-link"><i class="fa-brands fa-github"></i></a>
+        <div class="home-overlay">
+            <div class="home-content">
+                <h1>Hello, I'm Areeba Sadiq</h1>
+                <h2>Web Developer | Designer | Creator</h2>
+                <p>Crafting beautiful and functional websites that provide seamless user experiences.</p>
+                <a href="#about" class="btn">Know More</a>
             </div>
         </div>
-    </footer>
-    
-    
-    <script src="app.js"></script>
+    </section>
+</main>
+
+<!-- About section -->
+<section id="about">
+  <div class="about-content">
+    <h2>About Me</h2>
+    <p>Hello! I'm Areeba, a passionate web developer with expertise in creating dynamic and user-friendly websites. I enjoy bringing ideas to life through code and design.</p>
+    <p>With a strong background in HTML, CSS, JavaScript, and TypeScript, I have completed numerous projects that showcase my ability to solve problems and innovate.</p>
+    <p>My goal is to continually improve my skills and stay updated with the latest technologies, ensuring that I deliver the best possible solutions for my clients.</p>
+  </div>
+  <div class="about-image">
+    <img src="images/profile.jpg" alt="Areeba" />
+  </div>
+</section>
+
+     <!-- skills section -->
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="skill-bar">
+        <div class="skill-progress html"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>CSS</h3>
+      <div class="skill-bar">
+        <div class="skill-progress css"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <div class="skill-bar">
+        <div class="skill-progress js"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>TypeScript</h3>
+      <div class="skill-bar">
+        <div class="skill-progress ts"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>Node.js</h3>
+      <div class="skill-bar">
+        <div class="skill-progress node"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>React</h3>
+      <div class="skill-bar">
+        <div class="skill-progress react"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- experience section -->
+<section id="experience">
+  <h2>My Experience</h2>
+  <div class="experience-container">
+    <div class="experience-item">
+      <h3>Matric Science</h3>
+      <p><strong>Completed: 2023</strong></p>
+      <p>In 2023, I completed my Matric Science studies, gaining a solid foundation in scientific principles and analytical skills.</p>
+    </div>
+    <div class="experience-item">
+      <h3>Generative AI Student</h3>
+      <p><strong>Currently Enrolled</strong></p>
+      <p>Currently, I am a student of Generative AI, having started my journey in this field recently. This has provided me with valuable insights into modern AI technologies.</p>
+    </div>
+    <div class="experience-item">
+      <h3>HTML & CSS Experience</h3>
+      <p><strong>Started: September 2023</strong></p>
+      <p>I started learning HTML and CSS in September 2023 through YouTube tutorials Apna college. I have completed one year of hands-on experience in these technologies.</p>
+    </div>
+    <div class="experience-item">
+      <h3>TypeScript Journey</h3>
+      <p><strong>Since: February 2024</strong></p>
+      <p>Since February 2024, I have been learning TypeScript. Under the guidance of my teacher, Sir Hamzah Syed, I have successfully completed Quarter 1 and am progressing towards Quarter 2.</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>&copy; 2024 Areeba Sadiq. All rights reserved.</p>
+</footer>
+
+
 </body>
 </html>
-
