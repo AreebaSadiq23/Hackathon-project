@@ -213,6 +213,7 @@ li:before {
   height: 60px;
   border-top: 1px solid #403F44;
   display: inline-block;
+  text-align: center;
 }
 
 /* HEADER */
@@ -348,28 +349,10 @@ li:before {
   display: none;
 }
 
-.social_icons .facebook:hover {
-  background: #3b5998;
-  color: #dfe3ee;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.social_icons .twitter:hover {
-  background: #00aced;
-  color: #fff;
-}
-
 .social_icons .linkedin:hover {
   background: #007bb5;
   color: #fff;
 }
-
-.social_icons .dribbble:hover {
-  background: #ea4c89;
-  color: #fff;
-}
-
 .social_icons a:hover {
   color: #fff;
   border-radius: 50%;
